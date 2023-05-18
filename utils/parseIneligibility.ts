@@ -23,7 +23,7 @@ export function parseIneligibility(
       return `You are not eligible to mint ${quantity} tokens.`;
     }
 
-    return "You are not eligible to mint at this time.";
+    return "You are not not currently able to mint. Consider the secondary markets if you would like to acquire an NFT from this collection.";
   }
 
   return reason;

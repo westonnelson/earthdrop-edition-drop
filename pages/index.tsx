@@ -214,9 +214,9 @@ const Home: NextPage = () => {
         ) : (
           <>
             <div className={styles.infoSide}>
-              {/* Title of your NFT Collection */}
+              {/* The Arbiter */}
               <h1>{contractMetadata?.name}</h1>
-              {/* Description of your NFT Collection */}
+              {/* NFTEarth ERC-155 NFT Drop! */}
               <p className={styles.description}>
                 {contractMetadata?.description}
               </p>
@@ -233,7 +233,7 @@ const Home: NextPage = () => {
               {/* Amount claimed so far */}
               <div className={styles.mintCompletionArea}>
                 <div className={styles.mintAreaLeft}>
-                  <p>Total Minted</p>
+                  <p>Total NFTs Minted</p>
                 </div>
                 <div className={styles.mintAreaRight}>
                   {claimedSupply ? (
@@ -311,10 +311,10 @@ const Home: NextPage = () => {
           </>
         )}
       </div>
-      {/* Powered by thirdweb */}{" "}
-      <img
+      {/* Powered by NFTEarth */}{"NFTEarth"}
+      <img 
         src="/logo.png"
-        alt="thirdweb Logo"
+        alt="NFTEarth"
         width={135}
         className={styles.buttonGapTop}
       />
