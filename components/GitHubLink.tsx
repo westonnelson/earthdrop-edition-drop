@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://github.com/thirdweb-example/edition-drop";
+  const url = "https://portal.arbitrum.io";
   return (
     <>
       <div
@@ -28,7 +28,7 @@ export default function ThirdwebGuideFooter() {
         }}
       >
         <img
-          src={"/github.png"}
+          src={"/arbitrum.png"}
           width={40}
           height={40}
           role="button"
