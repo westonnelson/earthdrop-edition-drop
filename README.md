@@ -1,3 +1,6 @@
+# Minting URL: <br>
+https://earthdrop.nftearth.exchange or at this link: [Earthdrop](https://earthdrop.nftearth.exchange)
+
 # NFTEarth enters NFTFi on Arbitrum! 
 
 Here we are creating and deploy simple frontend for the claiming of ERC-1155 NFTs.
